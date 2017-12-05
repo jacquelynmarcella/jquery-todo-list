@@ -3,9 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>To-Do List</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+	<header>
+	  <h1>I really need to...</h1>
+	</header>
+	<div class="section">
+		<form id="iteminput">
+			<input type="text" id="item-input" placeholder="...make a list" required>
+			<input type="button" id="add-item" value="add +">
+			<input type="button" class="subtle-button" id="reset-form" value="clear">
+		</form>
+	</div>
+	<div class="section list-container">
+		<ul id="list-section">
+		</ul>
+	</div>
+	<div class="section">
+		<input type="button" class="subtle-button" id="clear-list" value="delete list">
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
