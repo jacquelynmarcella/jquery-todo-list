@@ -57,7 +57,7 @@ input[type="button"] {
 	background: #393f36;
 }
 
-.subtle-button {
+input[type="button"].subtle-button {
 	background: none;
 	color: #393f36;
 }

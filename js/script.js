@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-  	$("#item-input").focus(); // focuses on text field when page loads
+	$("#item-input").focus(); // focuses on text field when page loads
 
 	var resetForm = function() {
 		$('form').trigger('reset');
